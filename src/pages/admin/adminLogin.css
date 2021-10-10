@@ -1,0 +1,68 @@
+.admin-login {
+  width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.admin-login .form-box {
+  margin-block: 100px;
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+}
+
+.form-box .title {
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0px;
+  font-weight: bold;
+}
+
+.form-box .input-box {
+  margin-block: 10px;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.form-box .input-box label {
+  width: 100%;
+  font-size: 20px;
+}
+
+.form-box .input-box input {
+  padding: 5px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(100, 100, 111, 0.2);
+}
+
+.form-box .submit-button {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.form-box .submit-button button {
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: none;
+  background: rgb(84, 236, 236);
+  transition: ease-in-out 200ms;
+}
+
+.form-box .submit-button button:hover {
+  background: rgb(48, 204, 204);
+}
+
+.form-box .submit-button button a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}

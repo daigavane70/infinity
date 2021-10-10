@@ -1,0 +1,52 @@
+.admin {
+  margin: 0px;
+}
+
+.admin .navbar {
+  width: 100%;
+  padding: 20px 10px;
+  background: linear-gradient(30deg, rgb(0, 225, 255), rgb(39, 146, 173));
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: start;
+  font-size: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pc-container {
+  width: 100%;
+  height: fit-content;
+}
+
+.pc-container .pc {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 600px;
+  /* height: 200px; */
+  position: relative;
+  text-align: center;
+  overflow: visible;
+}
+
+.pc-image {
+  height: 100%;
+  border-right: 1px solid grey;
+}
+.pc-image img {
+  height: 100%;
+  width: auto;
+}
+
+.pc-container .pc .timer {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.admin .pc-info {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+}
